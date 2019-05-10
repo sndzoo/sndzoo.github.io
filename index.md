@@ -2,17 +2,6 @@
 layout: default
 ---
 
-```python
-"""
-#
-#
-# Attention: This page is under construction!
-#
-#
-"""
-```
-
-
 # [](#overview)The Software Network Data Zoo
 
 <img align="left" width="200" height="200" style="margin-right: 30px" src="https://github.com/sndzoo/logo/raw/master/sndzoo_logo_small_trans.png">
@@ -24,7 +13,7 @@ All data sets are archived in their own GitHub repository using [data version co
 
 # [](#cite)Cite
 
-To cite this work, please use:
+To cite this work or one of the data sets, please use:
 
 ```bibtex
 
@@ -32,10 +21,23 @@ TODO
 
 ```
 
-
 # [](#data)Data sets
+
+```sh
+# TODO #
+```
+
 # [](#doc)Documentation
+
+```sh
+# TODO #
+```
+
 # [](#contribute)How to contribute?
+
+```sh
+# TODO #
+```
 
 # [](#references)References
 
@@ -44,8 +46,11 @@ TODO
 * [2] M. Peuster, H. Karl, and S. v. Rossem: [MeDICINE: Rapid Prototyping of Production-Ready Network Services in Multi-PoP Environments](http://ieeexplore.ieee.org/document/7919490/). IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), Palo Alto, CA, USA, pp. 148-153. doi: 10.1109/NFV-SDN.2016.7919490. (2016)
 
 
-
 # [](#contact)Contact
+
+```sh
+# TODO #
+```
 
 ## Acknowledgments
 This work has received funding from the European Union's Horizon 2020 research and innovation program under grant agreement No. H2020-ICT-2016-2 761493 ([5GTANGO](https://5gtango.eu)), and the German Research Foundation (DFG) within the Collaborative Research Centre ["On-The-Fly Computing" (SFB 901)](https://sfb901.uni-paderborn.de/).
