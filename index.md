@@ -21,7 +21,7 @@ TODO
 
 ```
 
-# [](#data)Data sets
+# [](#data)Available data sets
 
 ```sh
 # TODO #
