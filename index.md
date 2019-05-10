@@ -21,7 +21,6 @@ The *software network data zoo (SNDZoo)* is an open collection of software netwo
 
 All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data. If you are working in the software network domain, you are welcome to [contribute](#contribute) your own data sets to this project.
 
-<br><br><br>
 
 # [](#cite)Cite
 
