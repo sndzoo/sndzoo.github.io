@@ -15,16 +15,37 @@ layout: default
 
 # [](#overview)The Software Network Data Zoo
 
-dassd 
-dsadsa
-dadsdasd
-asdda
+<img align="left" width="200" height="200" style="margin-right: 30px" src="https://github.com/sndzoo/logo/raw/master/sndzoo_logo_small_trans.png">
+
+The *software network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published datasets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references).
+
+All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data.
+
+<br><br><br>
 
 # [](#cite)Cite
+
+To cite this work, please use:
+
+```bibtex
+
+TODO
+
+```
+
 
 # [](#data)Data sets
 # [](#doc)Documentation
 # [](#contribute)How to contribute?
+
+# [](#references)References
+
+* [1] M. Peuster and H. Karl: [Profile Your Chains, Not Functions: Automated Network Service Profiling in DevOps Environments](http://ieeexplore.ieee.org/document/8169826/). IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), Berlin, Germany. (2017)
+
+* [2] M. Peuster, H. Karl, and S. v. Rossem: [MeDICINE: Rapid Prototyping of Production-Ready Network Services in Multi-PoP Environments](http://ieeexplore.ieee.org/document/7919490/). IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), Palo Alto, CA, USA, pp. 148-153. doi: 10.1109/NFV-SDN.2016.7919490. (2016)
+
+
+
 # [](#contact)Contact
 
 ## Acknowledgments
