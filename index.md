@@ -37,9 +37,13 @@ To cite this work or one of the data sets, please use:
 
 # [](#data)Available data sets
 
-```sh
-# TODO #
-```
+Overview of data sets available in the SNDZoo:
+
+| Name  | Class      | SUT      | Probe  | Configs | Metrics | TS Metrics | Total data points | Repository   |
+|-------|------------|----------|--------|---------|---------|------------|-------------------|--------------|
+| SEC01 | IDS System | Suricata | Traces | 1600    | 280     | 157        | 7.9M              | Git/DVC, ZIP |
+|       |            |          |        |         |         |            |                   |              |
+|       |            |          |        |         |         |            |                   |              |
 
 # [](#doc)Documentation
 
