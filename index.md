@@ -58,12 +58,14 @@ The following sections describe and use the data sets.
 
 Each data set is stored in its own GitHub repository from which the data files are linked using [DVC](https://dvc.org). To download and use the data sets, you should use Git and DVC to ensure that you can always access the latest version of the data set. As a fallback, we also linked ZIP versions of each data set. However, the ZIP versions might be slightly outdated and not as well maintained as the Git/DVC versions are.
 
+To get the data set (using [SEC01](https://github.com/sndzoo/ds_nfv_sec01) as example) do:
+
 1. Install Git/DVC: [https://dvc.org/](https://dvc.org/)
 2. Clone the data set repository: `git clone https://github.com/sndzoo/ds_nfv_sec01.git`
 3. Switch to the cloned repository: `cd ds_nfv_sec01`
 4. Pull the data using DVC: `dvc pull`
 
-Example:
+Full example:
 
 ```sh
 # 1. install DVC
@@ -95,10 +97,10 @@ Preparing to collect status from https://sndzoo.s3.amazonaws.com/ds_nfv_sec01
 
 ## Structure of the data sets
 
-All data sets follow a similar file/folder structure:
+All data sets follow a similar file/folder structure (using [SEC01](https://github.com/sndzoo/ds_nfv_sec01) as example):
 
 ```
-$ tree -h .
+$ tree -h ds_nfv_sec01
 ├── [4.0K]  meta
 │   ├── [2.9K]  ped.yml
 │   ├── [108K]  platform_hw_info.xml
@@ -118,23 +120,19 @@ $ tree -h .
 └── [2.0K]  README.md
 ```
 
-* `meta/`: Folder containing configurations and further information about the data collection process and platform.
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
+* `meta/` Folder containing configurations and further information about the data collection process and platform.
+* `ped.yml`
+* `platform_hw_info.xml`
+* `platform_sw_info_os.txt`
+* `platform_sw_info_pkg.txt`
+* `ts_metrics.yml`
 
-* `data/`: Folder containing the actual measurement data.
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
-* `file.xx`
-
+* `data/` Folder containing the actual measurement data.
+* `*.dvc` Reference file used by DVC. Not of interest for the user.
+* `csv_experiments.csv` Table that contains the experiment metrics and configurations. Each column contains one experiment parameter or metric. Each row represents one execution of the experiment and contains the measured data. Default CSV file format that can be imported with, e.g., [Pandas](https://pandas.pydata.org/).
+* `csv_timeseries.tar.gz` Archive containing the time series data collect during each experiment in CSV format. Each file contains one time series metric for one experiment execution. Each row contains one data record. The archive can contain hundreds of thousands of small CSV files.
+* `raw_prometheus_data.tar.gz` RAW Prometheus data recorded during experiment. The `csv_timeseries.tar.gz` data is exported from this raw data  (for reference, only for advanced users).
+* ` raw_records.tar.gz` Raw outputs and measurements produced by [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark). The  `csv_experiments.csv` file is exported from this raw data (for reference, only for advanced users).
 
 ## How to reproduce the experiments?
 
