@@ -52,9 +52,48 @@ Overview of data sets available in the SNDZoo:
 
 # [](#doc)Documentation
 
+The following sections describe and use the data sets.
+
+## How to download the data sets?
+
+Each data set is stored in its own GitHub repository from which the data files are linked using [DVC](https://dvc.org). To download and use the data sets, you should use Git and DVC to ensure that you can always access the latest version of the data set. As a fallback, we also linked ZIP versions of each data set. However, the ZIP versions might be slightly outdated and not as well maintained as the Git/DVC versions are.
+
+1. Install Git/DVC: [https://dvc.org/](https://dvc.org/)
+2. Clone the data set repository: `git clone https://github.com/sndzoo/ds_nfv_sec01.git`
+3. Switch to the cloned repository: `cd ds_nfv_sec01`
+4. Pull the data using DVC: `dvc pull`
+
+Example:
+
 ```sh
-# TODO #
+# 1. install DVC
+$ pip install dvc
+
+# 2. clone data set git repository
+$ git clone https://github.com/sndzoo/ds_nfv_sec01.git
+
+# 3. switch folder
+$ cd ds_nfv_sec01
+
+# 4. pull the data files
+$ dvc pull
+
+Preparing to download data from 'https://sndzoo.s3.amazonaws.com/ds_nfv_sec01'
+Preparing to collect status from https://sndzoo.s3.amazonaws.com/ds_nfv_sec01
+[##############################] 100% Collecting information
+[##############################] 100% Analysing status.
+(1/4): [##############################] 100% data/csv_experiments.csv
+(2/4): [##############################] 100% data/raw_records.tar.gz
+(3/4): [##############################] 100% data/csv_timeseries.tar.gz
+(4/4): [##############################] 100% data/raw_prometheus_data.tar.gz
+[##############################] 100% Checkout finished!
 ```
+
+## Structure of the data sets
+
+## How to reproduce the experiments?
+
+
 
 # [](#contribute)How to contribute?
 
