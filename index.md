@@ -41,14 +41,14 @@ Overview of data sets available in the SNDZoo:
 
 | Data set name | Class | SUT | Configs | Exp. metrics | TS metrics | Total data points | Data |
 |---------------|---------------|---------------|-----------------------|--------------------|---------------------|-------------------|-----------|
-| SEC01 | IDS System | Suricata VNF | 1600 | 280 | 157 | 7.9M | Repo, ZIP |
-| SEC02 | IDS System | Snort 2.9 VNF | 1600 | 280 | 169 | 8.6M | Repo, ZIP |
-| SEC03 | IDS System | Snort 3.0 VNF | 800 | 281 | 593 | 14.5M | Repo, ZIP |
-| WEB01 | Load balancer | Nginx VNF | 1600 | 268 | 43 | 2.5M | Repo, ZIP |
-| WEB02 | Load balancer | HAProxy VNF | 1600 | 268 | 43 | 2.5M | Repo, ZIP |
-| WEB03 | Proxy | Squid VNF | 1600 | 268 | 43 | 2.5M | Repo, ZIP |
-| IOT01 | MQTT Broker | Mosquitto VNF | 1600 | 275 | 90 | 4.7M | Repo, ZIP |
-| IOT02 | MQTT Broker | Emqx VNF | 1600 | 275 | 90 | 4.7M | Repo, ZIP |
+| [SEC01](https://github.com/sndzoo/ds_nfv_sec01) | IDS System | [Suricata VNF](https://cloud.docker.com/repository/docker/mpeuster/vnf-ids-suricata) | [1600](https://github.com/sndzoo/ds_nfv_sec01/blob/master/meta/ped.yml) | 280 | 157 | 7.9M | [Repo](https://github.com/sndzoo/ds_nfv_sec01), [ZIP]() |
+| [SEC02](https://github.com/sndzoo/ds_nfv_sec02) | IDS System | [Snort 2.9 VNF](https://cloud.docker.com/repository/docker/mpeuster/vnf-ids-snort2) | [1600](https://github.com/sndzoo/ds_nfv_sec02/blob/master/meta/ped.yml) | 280 | 169 | 8.6M | [Repo](https://github.com/sndzoo/ds_nfv_sec02), [ZIP]() |
+| [SEC03](https://github.com/sndzoo/ds_nfv_sec03) | IDS System | [Snort 3.0 VNF](https://cloud.docker.com/repository/docker/mpeuster/vnf-ids-snort3) | [800](https://github.com/sndzoo/ds_nfv_sec03/blob/master/meta/ped.yml) | 281 | 593 | 14.5M | [Repo](https://github.com/sndzoo/ds_nfv_sec03), [ZIP]() |
+| [WEB01](https://github.com/sndzoo/ds_nfv_web01) | Load balancer | [Nginx VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-lb-nginx) | [1600](https://github.com/sndzoo/ds_nfv_web01/blob/master/meta/ped.yml) | 268 | 43 | 2.5M | [Repo](https://github.com/sndzoo/ds_nfv_web01), [ZIP]() |
+| [WEB02](https://github.com/sndzoo/ds_nfv_web02) | Load balancer | [HAProxy VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-lb-haproxy) | [1600](https://github.com/sndzoo/ds_nfv_web02/blob/master/meta/ped.yml) | 268 | 43 | 2.5M | [Repo](https://github.com/sndzoo/ds_nfv_web02), [ZIP]() |
+| [WEB03](https://github.com/sndzoo/ds_nfv_web03) | Proxy | [Squid VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-px-squid) | [1600](https://github.com/sndzoo/ds_nfv_web03/blob/master/meta/ped.yml) | 268 | 43 | 2.5M | [Repo](https://github.com/sndzoo/ds_nfv_web03), [ZIP]() |
+| [IOT01](https://github.com/sndzoo/ds_nfv_iot01) | MQTT Broker | [Mosquitto VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-broker-mosquitto) | [1600](https://github.com/sndzoo/ds_nfv_iot01/blob/master/meta/ped.yml) | 275 | 90 | 4.7M | [Repo](https://github.com/sndzoo/ds_nfv_iot01), [ZIP]() |
+| [IOT02](https://github.com/sndzoo/ds_nfv_iot02) | MQTT Broker | [Emqx VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-broker-emqx) | [1600](https://github.com/sndzoo/ds_nfv_iot02/blob/master/meta/ped.yml) | 275 | 90 | 4.7M | [Repo](https://github.com/sndzoo/ds_nfv_iot02), [ZIP]() |
 
 # [](#doc)Documentation
 
@@ -82,17 +82,4 @@ This work has received funding from the European Union's Horizon 2020 research a
 ## License
 (c) 2019 by Manuel Peuster (Paderborn University)<br /><br />
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
-
-<!--
-
-
-
-<img align="left" width="200" height="200" style="margin-right: 30px" src="https://raw.githubusercontent.com/containernet/logo/master/containernet_logo_v1.png">
-
-Containernet is a fork of the famous [Mininet](http://mininet.org) network emulator and allows to use [Docker](https://www.docker.com) containers as hosts in emulated network topologies. This enables interesting functionalities to build networking/cloud emulators and testbeds. One example for this is the [NFV multi-PoP infrastructure emulator](https://github.com/sonata-nfv/son-emu) which was created by the [SONATA-NFV](http://sonata-nfv.eu) project and is now part of the [OpenSource MANO (OSM)](https://osm.etsi.org) project. Besides this, Containernet is actively used by the research community, focussing on experiments in the field of cloud computing, fog computing, network function virtualization (NFV), and mobile edge computing (MEC).
-<br><br><br>
-
-//-->
-
 
