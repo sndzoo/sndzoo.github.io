@@ -132,8 +132,11 @@ The most interesting file for most use cases is `csv_experiments.csv` which cont
 
 ### Example figures
 
-<img align="left" width="200" style="margin-right: 20px" border="1" src="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_requests.png">
-<img align="left" width="200" style="margin-right: 20px" border="1" src="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_reqtime.png">
+<a href="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_requests.png" target="_blank"><img align="left" width="350" style="margin-right: 20px" border="1" src="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_requests.png"></a>
+<a href="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_reqtime.png" target="_blank"><img align="right" width="350" style="margin-right: 20px" border="1" src="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_reqtime.png"><br>
+
+<a href="xxx" target="_blank"><img align="left" width="350" style="margin-right: 20px" border="1" src="yyy"></a>
+<a href="xxx" target="_blank"><img align="right" width="350" style="margin-right: 20px" border="1" src="yyy"><br>
 
 
 ## How to reproduce the experiments?
