@@ -10,13 +10,13 @@ This page is under construction.
 
 ```
 
-# [](#overview)The Software Network Data Zoo
+# [](#overview)The Softwarised Network Data Zoo
 
 <img align="left" width="200" height="200" style="margin-right: 30px" src="https://github.com/sndzoo/logo/raw/master/sndzoo_logo_small_trans.png">
 
-The *software network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published datasets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references).
+The *softwarised network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published datasets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references).
 
-All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data. If you are working in the software network domain, you are welcome to [contribute](#contribute) your own data sets to this project.
+All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data. If you are working in the network softwarisation domain, you are welcome to [contribute](#contribute) your own data sets to this project.
 
 
 # [](#cite)Cite
@@ -24,9 +24,15 @@ All data sets are archived in their own GitHub repository using [data version co
 To cite this work or one of the data sets, please use:
 
 ```bibtex
-
-TODO
-
+@inproceedings{peuster2019sndzoo,
+	Author = {Peuster, Manuel and Schneider, Stefan and Karl, Holger},
+	Booktitle = {TODO)},
+	Keywords = {Measurement;Network function virtualization;Machine learning; Open data sets},
+	Month = {TODO},
+	Pages = {TODO},
+	Title = {{The Softwarised Network Data Zoo}},
+	Year = {2019}
+}
 ```
 
 # [](#data)Available data sets
@@ -56,9 +62,10 @@ TODO
 
 # [](#contact)Contact
 
-```sh
-# TODO #
-```
+Manuel Peuster<br>
+Computer Networks Group<br>
+Paderborn University, Germany<br>
+Mail: manuel (at) peuster (dot) de
 
 ## Acknowledgments
 This work has received funding from the European Union's Horizon 2020 research and innovation program under grant agreement No. H2020-ICT-2016-2 761493 ([5GTANGO](https://5gtango.eu)), and the German Research Foundation (DFG) within the Collaborative Research Centre ["On-The-Fly Computing" (SFB 901)](https://sfb901.uni-paderborn.de/).
