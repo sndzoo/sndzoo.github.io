@@ -128,11 +128,12 @@ $ tree -h ds_nfv_sec01
 
 ## Where to start?
 
-The most interesting file for most use cases is `csv_experiments.csv` which contains one row of measurement data for each experiment configuration that was executed and tested. The data can be easily loaded and plotted, as we show with some examples available in the [analysis](TODO) repository.
+The most interesting file for most use cases is `csv_experiments.csv` which contains one row of measurement data for each experiment configuration that was executed and tested. The data can be easily loaded and plotted, as we show with some examples available in the [analysis repository](https://github.com/sndzoo/analysis).
 
 ### Example figures
 
-TODO
+<img align="left" width="200" style="margin-right: 20px" border="1" src="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_requests.png">
+<img align="left" width="200" style="margin-right: 20px" border="1" src="https://raw.githubusercontent.com/sndzoo/analysis/master/plots/zoo_web_reqtime.png">
 
 
 ## How to reproduce the experiments?
