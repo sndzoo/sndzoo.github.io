@@ -155,6 +155,7 @@ If you work to experimental evaluations if NFV, SDN or other softwarised network
 Manuel Peuster<br>
 Computer Networks Group<br>
 Paderborn University, Germany<br>
+Twitter: [@ManuelPeuster](https://twitter.com/ManuelPeuster)<br>
 Mail: manuel (at) peuster (dot) de
 
 ## Acknowledgments
