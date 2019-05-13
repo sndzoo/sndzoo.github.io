@@ -156,12 +156,16 @@ docker pull mpeuster/vnf-ids-suricata
 ```
 
 Then you need to clone the [experiments](TODO) repository containing all experiment definitions used to generate the data sets.
-After that you can run tng-bench using the performance experiment description (PED) files to run the experiments:
+After that you can run tng-bench using the performance experiment description (PED) files as input.
+
+Example:
 
 ```sh
 # 1. clone experiments repository
 
-# 2. run tng-bench
+# 2. pull
+
+# 3. run tng-bench
 
 ```
 
