@@ -77,7 +77,11 @@ $ cd ds_nfv_sec01
 
 # 4. pull the data files
 $ dvc pull
+```
 
+DVC will start to download the data files belonging to the data set. This process might take some minutes (depending on your Internet connection):
+
+```
 Preparing to download data from 'https://sndzoo.s3.amazonaws.com/ds_nfv_sec01'
 Preparing to collect status from https://sndzoo.s3.amazonaws.com/ds_nfv_sec01
 [##############################] 100% Collecting information
