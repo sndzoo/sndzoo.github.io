@@ -39,12 +39,11 @@ To cite this work or one of the data sets, please use:
 
 Overview of data sets available in the SNDZoo:
 
-| Name  | Class      | SUT      | Probe  | Configs | Metrics | TS Metrics | Total data points | Repository   |
-|-------|------------|----------|--------|---------|---------|------------|-------------------|--------------|
-| SEC01 | IDS System | Suricata | Traces | 1600    | 280     | 157        | 7.9M              | Git/DVC, ZIP |
-|       |            |          |        |         |         |            |                   |              |
-|       |            |          |        |         |         |            |                   |              |
-
+| Data set name | Class      | SUT          | Probe / Stimuli | Tested configurations | Experiment metrics | Time series metrics | Total data points | Repository          |
+|---------------|------------|--------------|-----------------|-----------------------|--------------------|---------------------|-------------------|---------------------|
+| SEC01         | IDS System | Suricata VNF | Traces          | 1600                  | 280                | 157                 | 7.9M              | Git/DVC, legacy ZIP |
+|               |            |              |                 |                       |                    |                     |                   |                     |
+|               |            |              |                 |                       |                    |                     |                   |                     |
 # [](#doc)Documentation
 
 ```sh
