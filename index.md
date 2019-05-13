@@ -39,7 +39,7 @@ To cite this work or one of the data sets, please use:
 
 Overview of data sets available in the SNDZoo:
 
-| Data set name | Class | SUT | Tested configurations | Experiment metrics | Time series metrics | Total data points | Data |
+| Data set name | Class | SUT | Configs | Exp. metrics | TS metrics | Total data points | Data |
 |---------------|---------------|---------------|-----------------------|--------------------|---------------------|-------------------|-----------|
 | SEC01 | IDS System | Suricata VNF | 1600 | 280 | 157 | 7.9M | Repo, ZIP |
 | SEC02 | IDS System | Snort 2.9 VNF | 1600 | 280 | 169 | 8.6M | Repo, ZIP |
