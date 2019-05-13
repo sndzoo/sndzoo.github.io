@@ -113,11 +113,11 @@ $ tree -h ds_nfv_sec01
 ```
 
 * `meta/` Folder containing configurations and further information about the data collection process and platform.
-* `ped.yml`
-* `platform_hw_info.xml`
-* `platform_sw_info_os.txt`
-* `platform_sw_info_pkg.txt`
-* `ts_metrics.yml`
+* `ped.yml` Experiment description file (for experiments executed with [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark)).
+* `platform_hw_info.xml` Hardware information of the node(s) on which the experiment was executed and the data was collected.
+* `platform_sw_info_os.txt` Software information (OS) of the node(s) on which the experiment was executed and the data was collected.
+* `platform_sw_info_pkg.txt` Software information (installed packages and versions) of the node(s) on which the experiment was executed and the data was collected.
+* `ts_metrics.yml` List of time series metrics that are available in `csv_timeseries.tar.gz`.
 
 * `data/` Folder containing the actual measurement data.
 * `*.dvc` Reference file used by DVC. Not of interest for the user.
