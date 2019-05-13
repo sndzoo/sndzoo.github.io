@@ -141,7 +141,7 @@ The most interesting file for most use cases is `csv_experiments.csv` which cont
 <a href="https://github.com/sndzoo/analysis/blob/master/plots/zoo_sec_packets.png" target="_blank"><img align="left" width="350" style="margin-right: 20px" border="1" src="https://github.com/sndzoo/analysis/raw/master/plots/zoo_sec_packets.png"></a>
 <a href="https://github.com/sndzoo/analysis/blob/master/plots/zoo_sec_drop.png" target="_blank"><img align="right" width="350" style="margin-right: 20px" border="1" src="https://github.com/sndzoo/analysis/raw/master/plots/zoo_sec_drop.png"><br>
 
-<div></div>
+<div style="clear: both"></div>
 
 ## How to reproduce the experiments?
 
