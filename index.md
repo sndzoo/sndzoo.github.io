@@ -2,14 +2,6 @@
 layout: default
 ---
 
-```python
-
-"""
-This page is under construction.
-"""
-
-```
-
 # [](#overview)The Softwarised Network Data Zoo
 
 <img align="left" width="200" height="200" style="margin-right: 30px" src="https://github.com/sndzoo/logo/raw/master/sndzoo_logo_small_trans.png">
@@ -35,7 +27,7 @@ To cite this work or one of the data sets, please use:
 }
 ```
 
-# [](#data)Available data sets
+# [](#data)Data
 
 Overview of data sets available in the SNDZoo:
 
@@ -50,7 +42,7 @@ Overview of data sets available in the SNDZoo:
 | [IOT01](https://github.com/sndzoo/ds_nfv_iot01) | MQTT Broker | [Mosquitto VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-broker-mosquitto) | [1600](https://github.com/sndzoo/ds_nfv_iot01/blob/master/meta/ped.yml) | 275 | 90 | 4.7M | [Repo](https://github.com/sndzoo/ds_nfv_iot01), [ZIP](https://www.amazon.de/clouddrive/share/uhWZecRzEhosckpO7ri4bQIW06rYykBBfsPugZbVICp) |
 | [IOT02](https://github.com/sndzoo/ds_nfv_iot02) | MQTT Broker | [Emqx VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-broker-emqx) | [1600](https://github.com/sndzoo/ds_nfv_iot02/blob/master/meta/ped.yml) | 275 | 90 | 4.7M | [Repo](https://github.com/sndzoo/ds_nfv_iot02), [ZIP](https://www.amazon.de/clouddrive/share/uhWZecRzEhosckpO7ri4bQIW06rYykBBfsPugZbVICp) |
 
-# [](#doc)Documentation
+# [](#documentation)Documentation
 
 The following sections describe and use the data sets.
 
@@ -138,7 +130,7 @@ $ tree -h ds_nfv_sec01
 
 
 
-# [](#contribute)How to contribute?
+# [](#contribute)Contribute
 
 ```sh
 # TODO #
