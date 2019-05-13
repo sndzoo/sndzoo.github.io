@@ -48,7 +48,7 @@ Overview of data sets available in the SNDZoo:
 | WEB02 | Load balancer | HAProxy VNF | AB/Apache | 1600 | 268 | 43 | 2.5M |  |
 | WEB03 | Proxy | Squid VNF | AB/Apache | 1600 | 268 | 43 | 2.5M |  |
 | IOT01 | MQTT Broker | Mosquitto VNF | Malaria | 1600 | 275 | 90 | 4.7M |  |
-| IOT02 | MQTT Broker | Emqx VNF | Malaria | 1600 | 275 | 90 | 4.7M |  |
+| IOT02 | MQTT Broker | [Emqx VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-broker-emqx) | Malaria | 1600 | 275 | 90 | 4.7M |  |
 
 # [](#doc)Documentation
 
