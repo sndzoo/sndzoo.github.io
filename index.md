@@ -132,7 +132,7 @@ $ tree -h ds_nfv_sec01
 * `csv_experiments.csv` Table that contains the experiment metrics and configurations. Each column contains one experiment parameter or metric. Each row represents one execution of the experiment and contains the measured data. Default CSV file format that can be imported with, e.g., [Pandas](https://pandas.pydata.org/).
 * `csv_timeseries.tar.gz` Archive containing the time series data collect during each experiment in CSV format. Each file contains one time series metric for one experiment execution. Each row contains one data record. The archive can contain hundreds of thousands of small CSV files.
 * `raw_prometheus_data.tar.gz` RAW Prometheus data recorded during experiment. The `csv_timeseries.tar.gz` data is exported from this raw data  (for reference, only for advanced users).
-* ` raw_records.tar.gz` Raw outputs and measurements produced by [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark). The  `csv_experiments.csv` file is exported from this raw data (for reference, only for advanced users).
+* `raw_records.tar.gz` Raw outputs and measurements produced by [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark). The  `csv_experiments.csv` file is exported from this raw data (for reference, only for advanced users).
 
 ## How to reproduce the experiments?
 
