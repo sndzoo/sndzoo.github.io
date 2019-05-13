@@ -95,6 +95,47 @@ Preparing to collect status from https://sndzoo.s3.amazonaws.com/ds_nfv_sec01
 
 ## Structure of the data sets
 
+All data sets follow a similar file/folder structure:
+
+```
+$ tree -h .
+├── [4.0K]  meta
+│   ├── [2.9K]  ped.yml
+│   ├── [108K]  platform_hw_info.xml
+│   ├── [ 298]  platform_sw_info_os.txt
+│   ├── [113K]  platform_sw_info_pkg.txt
+│   └── [ 14K]  ts_metrics.yml
+├── [4.0K]  data
+│   ├── [2.5M]  csv_experiments.csv
+│   ├── [ 173]  csv_experiments.csv.dvc
+│   ├── [ 67M]  csv_timeseries.tar.gz
+│   ├── [ 175]  csv_timeseries.tar.gz.dvc
+│   ├── [307M]  raw_prometheus_data.tar.gz
+│   ├── [ 180]  raw_prometheus_data.tar.gz.dvc
+│   ├── [ 33M]  raw_records.tar.gz
+│   └── [ 172]  raw_records.tar.gz.dvc
+├── [ 20K]  LICENSE
+└── [2.0K]  README.md
+```
+
+* `meta/`: Folder containing configurations and further information about the data collection process and platform.
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+
+* `data/`: Folder containing the actual measurement data.
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+* `file.xx`
+
+
 ## How to reproduce the experiments?
 
 
