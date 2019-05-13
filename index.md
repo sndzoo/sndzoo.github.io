@@ -39,16 +39,16 @@ To cite this work or one of the data sets, please use:
 
 Overview of data sets available in the SNDZoo:
 
-| Data set name | Class | SUT | Probe / Stimuli | Tested configurations | Experiment metrics | Time series metrics | Total data points | Repository |
-|---------------|---------------|---------------|-----------------|-----------------------|--------------------|---------------------|-------------------|---------------------|
-| SEC01 | IDS System | Suricata VNF | Traces | 1600 | 280 | 157 | 7.9M | Git/DVC, legacy ZIP |
-| SEC02 | IDS System | Snort 2.9 VNF | Traces | 1600 | 280 | 169 | 8.6M |  |
-| SEC03 | IDS System | Snort 3.0 VNF | Treaces | 800 | 281 | 593 | 14.5M |  |
-| WEB01 | Load balancer | Nginx VNF | AB/Apache | 1600 | 268 | 43 | 2.5M |  |
-| WEB02 | Load balancer | HAProxy VNF | AB/Apache | 1600 | 268 | 43 | 2.5M |  |
-| WEB03 | Proxy | Squid VNF | AB/Apache | 1600 | 268 | 43 | 2.5M |  |
-| IOT01 | MQTT Broker | Mosquitto VNF | Malaria | 1600 | 275 | 90 | 4.7M |  |
-| IOT02 | MQTT Broker | [Emqx VNF](https://cloud.docker.com/u/mpeuster/repository/docker/mpeuster/vnf-broker-emqx) | Malaria | 1600 | 275 | 90 | 4.7M |  |
+| Data set name | Class | SUT | Tested configurations | Experiment metrics | Time series metrics | Total data points | Data |
+|---------------|---------------|---------------|-----------------------|--------------------|---------------------|-------------------|-----------|
+| SEC01 | IDS System | Suricata VNF | 1600 | 280 | 157 | 7.9M | Repo, ZIP |
+| SEC02 | IDS System | Snort 2.9 VNF | 1600 | 280 | 169 | 8.6M | Repo, ZIP |
+| SEC03 | IDS System | Snort 3.0 VNF | 800 | 281 | 593 | 14.5M | Repo, ZIP |
+| WEB01 | Load balancer | Nginx VNF | 1600 | 268 | 43 | 2.5M | Repo, ZIP |
+| WEB02 | Load balancer | HAProxy VNF | 1600 | 268 | 43 | 2.5M | Repo, ZIP |
+| WEB03 | Proxy | Squid VNF | 1600 | 268 | 43 | 2.5M | Repo, ZIP |
+| IOT01 | MQTT Broker | Mosquitto VNF | 1600 | 275 | 90 | 4.7M | Repo, ZIP |
+| IOT02 | MQTT Broker | Emqx VNF | 1600 | 275 | 90 | 4.7M | Repo, ZIP |
 
 # [](#doc)Documentation
 
