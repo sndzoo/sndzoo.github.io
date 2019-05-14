@@ -140,7 +140,7 @@ The most interesting file for most use cases is `csv_experiments.csv` which cont
 
 ## How to reproduce the experiments?
 
-You can reproduce all experiments that are designed to be executed with our NFV benchmarking automation framework [tng-bench]() using two separated Linux machines. First, you need to [install the tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)) platform together with vim-emu as described in this [guide](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)). After that you need to pull the used VNFs from DockerHub. To do so, you can run the following on the experiment execution platform's machine:
+You can reproduce all experiments that are designed to be executed with our NFV benchmarking automation framework [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) using two separated Linux machines. First, you need to [install the tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)) platform together with vim-emu as described in this [guide](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)). After that you need to pull the used VNFs from DockerHub. To do so, you can run the following on the experiment execution platform's machine:
 
 ```sh
 # Probe VNF containing the used traffic generators
