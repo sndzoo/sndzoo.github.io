@@ -6,16 +6,16 @@ layout: default
 
 <img align="left" width="200" height="200" style="margin-right: 30px" src="https://github.com/sndzoo/logo/raw/master/sndzoo_logo_small_trans.png">
 
-The *softwarised network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published datasets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references).
+The *softwarised network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published data sets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references).
 
-All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data. If you are working in the network softwarisation domain, you are welcome to [contribute](#contribute) your own data sets to this project.
+All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data blobs. If you are working in the network softwarisation domain, you are welcome to [contribute](#contribute) your own data sets to this project.
 
 
 # [](#cite)Cite
 
-To cite this work or one of the data sets, please use:
+To cite this work if you use one of the contained data sets, please use:
 
-*Note: This work is currently under review for publication. But a preprint is available on Arxiv: [official paper preprint](https://arxiv.org/abs/1905.04962)*.
+*Note: This work is currently under review for publication. A preprint is available on arXiv: [official paper preprint](https://arxiv.org/abs/1905.04962)*.
 
 ```bibtex
 @article{peuster2019sndzoo,
