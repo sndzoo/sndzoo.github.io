@@ -167,7 +167,7 @@ $ cd ds_nfv_sec01/experiments
 $ tng-bench -p peds/zoo_sec01.yml
 ```
 
-After the experiment was executed, the results are available in `results/`.
+After the experiment was executed, the results are available in `results/`. If you need help, please contact us: [![Gitter](https://badges.gitter.im/sndzoo/community.svg)](https://gitter.im/sndzoo/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
 # [](#contribute)Contribute
@@ -182,6 +182,8 @@ If you work to experimental evaluations if NFV, SDN or other softwarised network
 
 
 # [](#contact)Contact
+
+Support: [![Gitter](https://badges.gitter.im/sndzoo/community.svg)](https://gitter.im/sndzoo/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Manuel Peuster<br>
 Computer Networks Group<br>
