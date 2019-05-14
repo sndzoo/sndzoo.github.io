@@ -20,13 +20,12 @@ To cite this work or one of the data sets, please use:
 ```bibtex
 @article{peuster2019sndzoo,
     Title = {{The Softwarised Network Data Zoo}},
-	Author = {Peuster, Manuel and Schneider, Stefan and Karl, Holger},
-	Booktitle = {TODO)},
-	Keywords = {Measurement;Network function virtualization;Machine learning; Open data sets},
-	Month = {May},
+    Author = {Peuster, Manuel and Schneider, Stefan and Karl, Holger},
+    Keywords = {Measurement;Network function virtualization;Machine learning; Open data sets},
+    Month = {May},
     Journal = {arXiv preprint arXiv:1905.04962},
-    Howpublished = {Online: https://arxiv.org/abs/1905.04962},
-	Year = {2019}
+    Howpublished = {online at: https://arxiv.org/abs/1905.04962},
+    Year = {2019}
 }
 ```
 
