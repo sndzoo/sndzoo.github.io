@@ -54,15 +54,8 @@ Each data set is stored in its own GitHub repository from which the data files a
 
 To get the data set (using [SEC01](https://github.com/sndzoo/ds_nfv_sec01) as example) do:
 
-1. Install Git/DVC: [https://dvc.org/](https://dvc.org/)
-2. Clone the data set repository: `git clone https://github.com/sndzoo/ds_nfv_sec01.git`
-3. Switch to the cloned repository: `cd ds_nfv_sec01`
-4. Pull the data using DVC: `dvc pull`
-
-Full example:
-
 ```sh
-# 1. install DVC
+# 1. install DVC (see https://dvc.org/ for full instructions)
 $ pip install dvc
 
 # 2. clone data set git repository
@@ -149,7 +142,7 @@ The most interesting file for most use cases is `csv_experiments.csv` which cont
 
 You can reproduce all experiments that are designed to be executed with our NFV benchmarking automation framework [tng-bench]() using two separated Linux machines. First, you need to [install the tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)) platform together with vim-emu as described in this [guide](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)). After that you need to pull the used VNFs from DockerHub. To do so, you can run the following on the experiment execution platform's machine:
 
-```
+```sh
 # Probe VNF containing the used traffic generators
 docker pull mpeuster/tng-bench-mp
 # Suricata VNF used in SEC01
