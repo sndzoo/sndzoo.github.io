@@ -88,23 +88,23 @@ All data sets follow a similar file/folder structure (using [SEC01](https://gith
 
 ```
 $ tree -h ds_nfv_sec01
-├── [4.0K]  meta
-│   ├── [2.9K]  ped.yml
-│   ├── [108K]  platform_hw_info.xml
-│   ├── [ 298]  platform_sw_info_os.txt
-│   ├── [113K]  platform_sw_info_pkg.txt
-│   └── [ 14K]  ts_metrics.yml
-├── [4.0K]  data
-│   ├── [2.5M]  csv_experiments.csv
-│   ├── [ 173]  csv_experiments.csv.dvc
-│   ├── [ 67M]  csv_timeseries.tar.gz
-│   ├── [ 175]  csv_timeseries.tar.gz.dvc
-│   ├── [307M]  raw_prometheus_data.tar.gz
-│   ├── [ 180]  raw_prometheus_data.tar.gz.dvc
-│   ├── [ 33M]  raw_records.tar.gz
-│   └── [ 172]  raw_records.tar.gz.dvc
 ├── [ 20K]  LICENSE
-└── [2.0K]  README.md
+├── [2.0K]  README.md
+├── [ 352]  data
+│   ├── [3.1M]  csv_experiments.csv
+│   ├── [ 173]  csv_experiments.csv.dvc
+│   ├── [141M]  csv_timeseries.tar.gz
+│   ├── [ 175]  csv_timeseries.tar.gz.dvc
+│   ├── [421M]  raw_prometheus_data.tar.gz
+│   ├── [ 180]  raw_prometheus_data.tar.gz.dvc
+│   ├── [ 63M]  raw_records.tar.gz
+│   └── [ 172]  raw_records.tar.gz.dvc
+└── [ 224]  meta
+    ├── [2.9K]  ped.yml
+    ├── [108K]  platform_hw_info.xml
+    ├── [ 298]  platform_sw_info_os.txt
+    ├── [113K]  platform_sw_info_pkg.txt
+    └── [ 14K]  ts_metrics.yml
 ```
 
 * `meta/` Folder containing configurations and further information about the data collection process and platform.
@@ -121,7 +121,7 @@ $ tree -h ds_nfv_sec01
 * `raw_prometheus_data.tar.gz` RAW Prometheus data recorded during experiment. The `csv_timeseries.tar.gz` data is exported from this raw data  (for reference, only for advanced users).
 * `raw_records.tar.gz` Raw outputs and measurements produced by [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark). The  `csv_experiments.csv` file is exported from this raw data (for reference, only for advanced users).
 
-* `experiment/` Folder that contains additional files to rerun the measurements that lead to this data set. Its contents depend on the used toolchain.
+* `experiments/` Folder that contains additional files to rerun the measurements that lead to this data set. Its contents depend on the used toolchain.
 
 ## Where to start?
 
@@ -142,30 +142,30 @@ The most interesting file for most use cases is `csv_experiments.csv` which cont
 
 ## How to reproduce the experiments?
 
-You can reproduce all experiments that are designed to be executed with our NFV benchmarking automation framework [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) using two separated Linux machines. First, you need to [install the tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)) platform together with vim-emu as described in this [guide](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)). After that you need to pull the used VNFs from DockerHub. To do so, you can run the following on the experiment execution platform's machine:
+You can reproduce all experiments that are designed to be executed with our NFV benchmarking automation framework [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) using two separated Linux machines. First, you need to [install the tng-bench platform](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)) together with [vim-emu](https://osm.etsi.org/wikipub/index.php/VIM_emulator) and configure your testbed as described in this [guide](https://github.com/sonata-nfv/tng-sdk-benchmark/wiki/Setup-execution-platform-(vim-emu)).
+
+Once your testbed is installed you can clone SNDZoo's [common](https://github.com/sndzoo/common) repository and pull the used VNFs (this should be done on both machines of the testbed):
 
 ```sh
-# Probe VNF containing the used traffic generators
-docker pull mpeuster/tng-bench-mp
-# Suricata VNF used in SEC01
-docker pull mpeuster/vnf-ids-suricata
-# (you can find the links to the other VNFs in the table above) ...
+# 1. clone SNDZoo common
+$ git clone https://github.com/sndzoo/common.git
+
+# 2. pull VNF images
+$ cd common/vnfs/
+$ ./pull.sh
 ```
 
-Then you need to clone the [experiments](TODO) repository containing all experiment definitions used to generate the data sets.
-After that you can run tng-bench using the performance experiment description (PED) files as input.
+Next, you need to clone the repository of the data set you want to replicate. In this example we use [`ds_nfv_sec01`](https://github.com/sndzoo/ds_nfv_sec01) (this is only needed on the machine on which you installed tng-bench). In the repository, you find all configurations needed to rerun the experiment using tng-bench:
 
-Example:
 
 ```sh
-# 1. clone experiments repository
+# 1. clone data set repository with experiment definitions
+$ git clone https://github.com/sndzoo/ds_nfv_sec01.git
 
-# 2. pull
-
-# 3. run tng-bench
-
+# 2. run the experiment using tng-bench
+$ cd ds_nfv_sec01/experiments
+$ tng-bench -p peds/zoo_sec01.yml
 ```
-
 
 
 # [](#contribute)Contribute
