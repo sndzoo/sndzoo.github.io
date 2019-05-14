@@ -46,7 +46,7 @@ Overview of data sets available in the SNDZoo:
 
 # [](#documentation)Documentation
 
-The following sections describe how to download and use the data sets. Further documentation can also be found in the [wiki of SNDZoo's "common"" repository](https://github.com/sndzoo/common/wiki).
+The following sections describe how to download and use the data sets. Further documentation can also be found in the [wiki of SNDZoo's "common" repository](https://github.com/sndzoo/common/wiki).
 
 ## How to download the data sets?
 
