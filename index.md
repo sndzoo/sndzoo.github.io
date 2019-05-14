@@ -15,14 +15,17 @@ All data sets are archived in their own GitHub repository using [data version co
 
 To cite this work or one of the data sets, please use:
 
+*Note: This work is currently under review for publication. But a preprint is available on Arxiv: [official paper preprint](https://arxiv.org/abs/1905.04962)*.
+
 ```bibtex
-@inproceedings{peuster2019sndzoo,
+@article{peuster2019sndzoo,
+    Title = {{The Softwarised Network Data Zoo}},
 	Author = {Peuster, Manuel and Schneider, Stefan and Karl, Holger},
 	Booktitle = {TODO)},
 	Keywords = {Measurement;Network function virtualization;Machine learning; Open data sets},
-	Month = {TODO},
-	Pages = {TODO},
-	Title = {{The Softwarised Network Data Zoo}},
+	Month = {May},
+    Journal = {arXiv preprint arXiv:1905.04962},
+    Howpublished = {Online: https://arxiv.org/abs/1905.04962},
 	Year = {2019}
 }
 ```
