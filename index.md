@@ -167,6 +167,8 @@ $ cd ds_nfv_sec01/experiments
 $ tng-bench -p peds/zoo_sec01.yml
 ```
 
+After the experiment was executed, the results are available in `results/`.
+
 
 # [](#contribute)Contribute
 
