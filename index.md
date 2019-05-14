@@ -121,6 +121,8 @@ $ tree -h ds_nfv_sec01
 * `raw_prometheus_data.tar.gz` RAW Prometheus data recorded during experiment. The `csv_timeseries.tar.gz` data is exported from this raw data  (for reference, only for advanced users).
 * `raw_records.tar.gz` Raw outputs and measurements produced by [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark). The  `csv_experiments.csv` file is exported from this raw data (for reference, only for advanced users).
 
+* `experiment/` Folder that contains additional files to rerun the measurements that lead to this data set. Its contents depend on the used toolchain.
+
 ## Where to start?
 
 The most interesting file for most use cases is `csv_experiments.csv` which contains one row of measurement data for each experiment configuration that was executed and tested. The data can be easily loaded and plotted, as we show with some examples available in the [analysis repository](https://github.com/sndzoo/analysis).
