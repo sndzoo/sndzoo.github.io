@@ -6,7 +6,7 @@ layout: default
 
 <img align="left" width="200" height="200" style="margin-right: 30px" src="https://github.com/sndzoo/logo/raw/master/sndzoo_logo_small_trans.png">
 
-The *softwarised network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published data sets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references).
+The *softwarised network data zoo (SNDZoo)* is an open collection of software networking data sets aiming to streamline and ease machine learning research in the software networking domain. Most of the published data sets focus on, but are not limited to, the performance of virtualised network functions (VNFs). The data is collected using fully automated NFV benchmarking frameworks, such as [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) [[1], [2]](#references), and follows the general VNF benchmarking methodology described in [[3]](#references).
 
 All data sets are archived in their own GitHub repository using [data version control (DVC)](https://dvc.org) as technology to manage and version the contained table- and time series-based data blobs. If you are working in the network softwarisation domain, you are welcome to [contribute](#contribute) your own data sets to this project.
 
@@ -180,6 +180,7 @@ If you work to experimental evaluations if NFV, SDN or other softwarised network
 
 * [2] M. Peuster, H. Karl, and S. v. Rossem: [MeDICINE: Rapid Prototyping of Production-Ready Network Services in Multi-PoP Environments](http://ieeexplore.ieee.org/document/7919490/). IEEE Conference on Network Function Virtualization and Software Defined Networks (NFV-SDN), Palo Alto, CA, USA, pp. 148-153. doi: 10.1109/NFV-SDN.2016.7919490. (2016)
 
+* [3] R. Rosa, C. Rothenberg, M. Peuster, H.Karl: [Methodology for VNF Benchmarking Automation](https://datatracker.ietf.org/doc/draft-rosa-bmwg-vnfbench/). IETF draft BMWG (ongoing work) (2018)
 
 # [](#contact)Contact
 
