@@ -167,6 +167,8 @@ $ cd ds_nfv_sec01/experiments
 $ tng-bench -p peds/zoo_sec01.yml
 ```
 
+Further documentation on how to run benchmarking experiments using [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) can be found in the **[documentation wiki](https://github.com/sndzoo/common/wiki)**.
+
 After the experiment was executed, the results are available in `results/`. If you need help, please contact us: [![Gitter](https://badges.gitter.im/sndzoo/community.svg)](https://gitter.im/sndzoo/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
