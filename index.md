@@ -13,21 +13,20 @@ All data sets are archived in their own GitHub repository using [data version co
 
 # [](#cite)Cite
 
-To cite this work if you use one of the contained data sets, please use:
-
-*Note: This work is currently under review for publication. A preprint is available on arXiv: [official paper preprint](https://arxiv.org/abs/1905.04962)*.
+To cite this work, e.g., if you use one of the contained data sets, please use:
 
 ```bibtex
-@article{peuster2019sndzoo,
-    Title = {The Softwarised Network Data Zoo},
-    Author = {Peuster, Manuel and Schneider, Stefan and Karl, Holger},
-    Keywords = {Measurement;Network function virtualization;Machine learning; Open data sets},
-    Month = {May},
-    Journal = {arXiv preprint arXiv:1905.04962},
-    Howpublished = {online at: https://arxiv.org/abs/1905.04962},
-    Year = {2019}
-}
+@inproceedings{peuster2019sndzoo,
+	Author = {M. Peuster and S. Schneider and H. Karl},
+	Booktitle = {2019 IEEE/IFIP 15th International Conference on Network and Service Management (CNSM)},
+	Month = {October},
+	Publisher = {IEEE/IFIP},
+	Title = {The Softwarised Network Data Zoo},
+	Year = {2019}}
 ```
+
+*Note: This work is accepted for publication in 2019 IEEE/IFIP 15th International Conference on Network and Service Management (CNSM). A preprint is available on arXiv: [official paper preprint](https://arxiv.org/abs/1905.04962)*.
+
 
 # [](#data)Data
 
@@ -174,7 +173,7 @@ After the experiment was executed, the results are available in `results/`. If y
 
 # [](#contribute)Contribute
 
-If you work to experimental evaluations if NFV, SDN or other softwarised network scenarios and want to share your data set, please [contact us](mailto:manuel@peuster.de). We do not require the use of  [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) to collect the data sets. Contributors are free to choose how they collect their data sets as long as they ensure that the data sets come with enough information such that the measurements can be reproduced in a fully automated fashion.
+If you work on experimental evaluations of NFV, SDN or other softwarised network scenarios and want to share your data set, please [contact us](mailto:manuel@peuster.de). We do not require the use of  [tng-bench](https://github.com/sonata-nfv/tng-sdk-benchmark) to collect the data sets. Contributors are free to choose how they collect their data sets as long as they ensure that the data sets come with enough information such that the measurements can be reproduced in a fully automated fashion.
 
 # [](#references)References
 
